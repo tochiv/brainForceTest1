@@ -26,5 +26,3 @@ $('#form-select').on('change', function () {
         }
     )
 })
-
-

@@ -14,7 +14,6 @@ if (isset($_GET['query'])) {
     $model = $carModel->getModelByBrandId($brand);
 }
 
-if (isset($model)){
+if (isset($model)) {
     echo $model;
 }
-

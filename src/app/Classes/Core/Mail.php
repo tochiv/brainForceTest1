@@ -13,6 +13,7 @@ class Mail
     private string $message;
 
     private string $headers;
+
     public function __construct(string $to, string $subject, string $message)
     {
         $this->to = $to;

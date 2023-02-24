@@ -14,7 +14,7 @@ require_once('./vendor/autoload.php');
 require_once('models.php');
 
 $select = new SelectClass(['class' => 'form-select', 'id' => 'form-select', 'name' => 'brand-select'], true);
-$disabledSelect = new SelectClass(['class' => 'form-select', 'name' => 'model-select', 'disabled' => 1, 'id' => 'model-select']);
+$disabledSelect = new SelectClass(['class' => 'form-select', 'name' => 'model-select', 'id' => 'model-select']);
 $partsSelect = new SelectClass(['class' => 'form-select', 'name' => 'parts'], true);
 
 $brands = new CarBrand();
